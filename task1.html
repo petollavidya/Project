@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Expense Tracker</title>
+    <style>
+        #div1
+        {
+            height:100px;
+            width:1300px;
+            background-color:#C8C8F4;
+            font-size:40px;
+            text-align:center;
+            color:#4F50AD;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #div2
+        {   background-color:#C8C8F4;
+            height:20px;
+            width:1300px;
+            font-size:20px;
+        }
+        form {
+         background: rgba(255, 255, 255, 0.9);
+         border-radius: 12px;
+         padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            max-width: 1250px;
+            margin: auto;
+            background-color:#B5E2FA;
+        }
+        .myinput
+        {
+            height:50px;
+            width:250px;
+            border-radius:10px;
+            margin-right:50px;
+            font-size:20px;
+        }
+        #div4
+        {   font-size:20px;
+            height:50px;
+            width:250px;
+            border-radius:20px;
+            background-color:#0FA3B1;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">Expense Tracker 
+    <div id="div2">Track your expenses according to your budget</div>
+    </div><br/>
+   
+        <form>
+            <div id="div3">
+            <input type="text" placeholder="Enter the title" class="myinput">
+            <input type="text" placeholder="Amount" class="myinput">
+            <select class="myinput">
+                <option>Select Category</option>
+                <option>Food</option>
+                <option>Entertainment</option>
+                <option>Travel</option>
+                <option>Others</option>
+            </select>
+            <button id="div4">Add Expense</button>
+        </div>
+        </form>
+    
+</body>
